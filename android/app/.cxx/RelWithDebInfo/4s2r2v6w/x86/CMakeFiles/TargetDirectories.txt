@@ -1,0 +1,2 @@
+C:/Users/varsh/projects/medirem/android/app/.cxx/RelWithDebInfo/4s2r2v6w/x86/CMakeFiles/edit_cache.dir
+C:/Users/varsh/projects/medirem/android/app/.cxx/RelWithDebInfo/4s2r2v6w/x86/CMakeFiles/rebuild_cache.dir

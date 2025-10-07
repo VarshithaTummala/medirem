@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "403223386149",
+    "project_id": "medirem-25011",
+    "storage_bucket": "medirem-25011.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403223386149:android:85c0a2d08fc379495387cc",
+        "android_client_info": {
+          "package_name": "com.example.medirem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TAB4JEDiVSJVs_6KfEiq7pDE1nKbOgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

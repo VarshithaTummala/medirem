@@ -1,0 +1,32 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+ios/Flutter/.last_build_id
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android/Gradle
+android/.gradle/
+android/local.properties
+android/app/release/
+android/app/debug/
+android/app/profile/
+android/app/google-services.json
+
+# Keystore & signing (very important!)
+android/app/keystore/
+*.keystore
+*.jks
+key.properties
+
+# Xcode (if you add iOS later)
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Misc
+dist/
+*.iml
+.idea/
+.vscode/

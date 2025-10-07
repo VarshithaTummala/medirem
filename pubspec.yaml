@@ -1,0 +1,64 @@
+name: medirem
+description: "Telugu Medicine Reminder App with Family Notifications"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # ✅ Core functionality (you already had these)
+  flutter_local_notifications: ^17.2.2
+  shared_preferences: ^2.2.3
+  timezone: ^0.9.4
+  audioplayers: ^6.0.0
+  
+  # ✅ NEW: Family notifications
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.0.4
+  mailer: ^6.1.2
+  http: ^1.2.2
+  
+  # ✅ NEW: Camera for pill photos
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/audio/
+    - assets/images/  # ✅ NEW: For pill photos
+
+  # ✅ Keep your existing audio files
+  # android:
+  #   raw: 
+  #     - assets/audio/alarm_te.mp3
+# Add this to your pubspec.yaml file
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+# Add this configuration section
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/medirem_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#2ECC71"
+  adaptive_icon_foreground: "assets/icons/medirem_foreground_resized_smaller.png"
+  remove_alpha_ios: true
+  
+
+flutter_native_splash:
+  color: "#2ECC71"            # background color
+  image: assets/splash_logo.png
+
+  android_12:
+    color: "#2ECC71"
+    image: assets/splash_logo_android12.png
