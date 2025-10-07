@@ -20,3 +20,21 @@ flutter build apk --release
 
 # release App Bundle (Play Store)
 flutter build appbundle --release
+
+## 📱 Screenshots
+
+### Welcome Screen
+<img src="assets/screenshots/welcome_screen.jpeg" width="300">
+
+### Home Screen
+<img src="assets/screenshots/home_screen.jpeg" width="300">
+
+### Set Reminder Screen
+<img src="assets/screenshots/set_reminder_screen1.png" width="300">
+
+<img src="assets/screenshots/set_reminder_screen2.png" width="300">
+
+<img src="assets/screenshots/set_reminder_screen3.png" width="300">
+
+### Notification Example
+<img src="assets/screenshots/alarm_screen.png" width="300">
